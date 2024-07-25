@@ -1,0 +1,30 @@
+{
+  "name": "weather",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^1.6.8",
+    "react": "^16.13.1",
+    "react-animated-weather": "^4.0.1",
+    "react-dom": "^16.13.1",
+    "react-geolocated": "^3.0.1",
+    "react-live-clock": "^6.1.20",
+    "react-skycons": "^0.7.0",
+    "skycons": "^1.0.0"
+  },
+  "scripts": {
+    "start": "r3f-pack start",
+    "build": "r3f-pack build",
+    "test": "r3f-pack test",
+    "eject": "r3f-pack eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "r3f-pack": "^2.8.1"
+  }
+}
